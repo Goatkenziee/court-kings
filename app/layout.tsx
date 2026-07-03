@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "App",
-  description: "Built on YouMe",
+  title: "Court Kings — Basketball Game",
+  description: "Dribble, shoot, and score in this browser basketball game. WASD to move, Space to shoot.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
